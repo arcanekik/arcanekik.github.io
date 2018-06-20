@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="author" content="unf4giv9"/>
+<meta name="description" content="Test repo"/>
+		<title>Arcane Kik</title>
+		<style>
+   body {
+ margin:0;
+ overflow-x:hidden;
+ background:#666666;
+ }
+ 
+
+.topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:56px;
+}            
+section {
+	
+}
+.tabs:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  width: 360px;
+  height: 67px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: %;
+  opacity: .6;
+  transform: scale(0);
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.tabs:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.tabs:after {
+  visibility: hidden;
+}
+
+.tabs:focus:after {
+  visibility: visible;
+}
+
+.tabs {
+	text-decoration:none;
+}
+
+
+
+.settings:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 89%;
+  top: 12%;
+  width: 40px;
+  height: 40px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: 50%;
+  opacity: .6;
+  transform: scale(0);
+}
+
+.settings:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.settings:after {
+  visibility: hidden;
+}
+
+.settings:focus:after {
+  visibility: visible;
+}
+
+.settings {
+text-decoration:none;
+}
+
+.tab2:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 22%;
+  width: 360px;
+  height: 72px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: %;
+  opacity: .6;
+  transform: scale(0);
+}
+
+.tab2:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.tab2:after {
+  visibility: hidden;
+}
+
+.tab2:focus:after {
+  visibility: visible;
+}
+
+.tab2 {
+text-decoration:none;
+}
+  .tab3:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 34.8%;
+  width: 360px;
+  height: 72px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: %;
+  opacity: .6;
+  transform: scale(0);
+}
+
+.tab3:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.tab3:after {
+  visibility: hidden;
+}
+
+.tab3:focus:after {
+  visibility: visible;
+}
+
+.tab3 {
+text-decoration:none;
+}
+.tab4:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 47.5%;
+  width: 360px;
+  height: 72px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: %;
+  opacity: .6;
+  transform: scale(0);
+}
+
+.tab4:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.tab4:after {
+  visibility: hidden;
+}
+
+.tab4:focus:after {
+  visibility: visible;
+}
+
+.tab4 {
+text-decoration:none;
+}
+.tab5:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 60.5%;
+  width: 360px;
+  height: 72px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: %;
+  opacity: .6;
+  transform: scale(0);
+}
+
+.tab5:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.tab5:after {
+  visibility: hidden;
+}
+
+.tab5:focus:after {
+  visibility: visible;
+}
+
+.tab5 {
+text-decoration:none;
+}
+.tab6:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 73.2%;
+  width: 360px;
+  height: 72px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: %;
+  opacity: .6;
+  transform: scale(0);
+}
+
+.tab6:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.tab6:after {
+  visibility: hidden;
+}
+
+.tab6:focus:after {
+  visibility: visible;
+}
+
+.tab6 {
+text-decoration:none;
+}
+.tab7:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 86%;
+  width: 360px;
+  height: 72px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: %;
+  opacity: .6;
+  transform: scale(0);
+}
+
+.tab7:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.tab7:after {
+  visibility: hidden;
+}
+
+.tab7:focus:after {
+  visibility: visible;
+}
+
+.tab7 {
+text-decoration:none;
+}
+.tab8:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 98.9%;
+  width: 360px;
+  height: 72px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #3f51b5;
+  border-radius: %;
+  opacity: .6;
+  transform: scale(0);
+}
+
+.tab8:not(:active):after {
+  animation: ripple 1s ease-out;
+}
+
+.tab8:after {
+  visibility: hidden;
+}
+
+.tab8:focus:after {
+  visibility: visible;
+}
+
+.tab8 {
+text-decoration:none;
+}
+		</style>
+	</head>
+	<body>
+		<ul class="topbar">
+			<img width="30px" style="margin-top:13px;margin-left:10px;" height="30px" src="logoo.png" alt="logo" />
+
+	<a href="#" class="settings"><img  width="25px" height="25px" style="float:right;margin-top:16px;margin-right:5px;" src="ic_settingsw.png" alt="settings" /> 
+	</a>
+
+			<hr style="margin-top:8px;border-color:#;" size="1" />
+
+		</ul>
+		<div style="padding:20px;margin-top:30px;height:px;">
+			<!-- New Features -->
+		<a class="tabs" href="#"><section style="background:#111111;height:72px;left:0;right:0;width:360px;margin-left:-20px;margin-top:6px;">
+				<img src="img_new_chats_bubble.png" alt="New Features Button" style="margin-top:5px;margin-left:10px;" />
+
+				<p style="color:grey;margin-top:-55px;font-weight:bold;margin-left:80px;">Many New Features</p>
+				<p style="color:#3f51b5;margin-top:-10px;margin-left:80px;">For Version 2 Of Arcane Kik</p>
+				<img src="ic_list_disclosure_arrow.png" alt="NewFeaturesArrow" style="float:right;margin-top:-50px;" />
+				</a>
+
+				<!-- Devs -->
+		<a class="tab2" href="#">	<section style="background:#212121;height:72px;left:0;right:0;width:360px;margin-top:-7px;">
+					<img src="arcanekikbois.png" alt="New Features Button" width="60px" height="60px" style="margin-top:5px;margin-left:10px;border-radius:50%;" />
+
+					<div style="margin-top:-20px;">
+						<p style="color:white;margin-top:-55px;margin-left:80px;font-size:17px;">Arcanekik  bois (Dev C..</p>
+						<p style="color:#a9adc1;margin-top:-10px;margin-left:80px;font-size:15px;">Contributors of ArcaneKik...</p>
+						<p style="float:right;margin-top:-58px;color:#a9adc1;font-size:15px;margin-right:10px;">Just Now</p>
+						</a>
+						<!-- More -->
+				<a class="tab3" href="#">	<section style="background:#212121;height:72px;left:0;right:0;width:360px;margin-top:-3px;">
+							<hr size="1" style="border-color:#000;" />
+
+							<img src="arcanekikbois.png" alt="New Features Button" width="60px" height="60px" style="margin-top:0px;margin-left:10px;border-radius:50%;" />
+
+							<div style="margin-top:-20px;">
+								<p style="color:white;margin-top:-55px;margin-left:80px;font-size:17px;">Arcanekik  bois (Dev C..</p>
+								<p style="color:#a9adc1;margin-top:-10px;margin-left:80px;font-size:15px;">Contributors of ArcaneKik...</p>
+								<p style="float:right;margin-top:-58px;color:#a9adc1;font-size:15px;margin-right:10px;">Just Now</p>
+								</a>
+								<!-- More -->
+					<a class="tab4" href="#">		<section style="background:#212121;height:72px;left:0;right:0;width:360px;margin-top:-6px;">
+									<hr size="1" style="border-color:#000;" />
+
+									<img src="arcanekikbois.png" alt="New Features Button" width="60px" height="60px" style="margin-top:0px;margin-left:10px;border-radius:50%;" />
+
+									<div style="margin-top:-20px;">
+										<p style="color:white;margin-top:-55px;margin-left:80px;font-size:17px;">Arcanekik  bois (Dev C..</p>
+										<p style="color:#a9adc1;margin-top:-10px;margin-left:80px;font-size:15px;">Contributors of ArcaneKik...</p>
+										<p style="float:right;margin-top:-58px;color:#a9adc1;font-size:15px;margin-right:10px;">Just Now</p>
+										</a>
+										<!-- More -->
+						<a class="tab5" href="#">			<section style="background:#212121;height:72px;left:0;right:0;width:360px;margin-top:-6px;">
+											<hr size="1" style="border-color:#000;" />
+
+											<img src="arcanekikbois.png" alt="New Features Button" width="60px" height="60px" style="margin-top:0px;margin-left:10px;border-radius:50%;" />
+
+											<div style="margin-top:-20px;">
+												<p style="color:white;margin-top:-55px;margin-left:80px;font-size:17px;">Arcanekik  bois (Dev C..</p>
+												<p style="color:#a9adc1;margin-top:-10px;margin-left:80px;font-size:15px;">Contributors of ArcaneKik...</p>
+												<p style="float:right;margin-top:-58px;color:#a9adc1;font-size:15px;margin-right:10px;">Just Now</p>
+												</a>
+												<!-- More -->
+						<a href="#" class="tab6">					<section style="background:#212121;height:72px;left:0;right:0;width:360px;margin-top:-6px;">
+													<hr size="1" style="border-color:#000;" />
+
+													<img src="arcanekikbois.png" alt="New Features Button" width="60px" height="60px" style="margin-top:0px;margin-left:10px;border-radius:50%;" />
+
+													<div style="margin-top:-20px;">
+														<p style="color:white;margin-top:-55px;margin-left:80px;font-size:17px;">Arcanekik  bois (Dev C..</p>
+														<p style="color:#a9adc1;margin-top:-10px;margin-left:80px;font-size:15px;">Contributors of ArcaneKik...</p>
+														<p style="float:right;margin-top:-58px;color:#a9adc1;font-size:15px;margin-right:10px;">Just Now</p>
+														</a>
+														<!-- More -->
+								<a class="tab7" href="#">					<section style="background:#212121;height:72px;left:0;right:0;width:360px;margin-top:-6px;">
+															<hr size="1" style="border-color:#000;" />
+
+															<img src="arcanekikbois.png" alt="New Features Button" width="60px" height="60px" style="margin-top:0px;margin-left:10px;border-radius:50%;" />
+
+															<div style="margin-top:-20px;">
+																<p style="color:white;margin-top:-55px;margin-left:80px;font-size:17px;">Arcanekik  bois (Dev C..</p>
+																<p style="color:#a9adc1;margin-top:-10px;margin-left:80px;font-size:15px;">Contributors of ArcaneKik...</p>
+																<p style="float:right;margin-top:-58px;color:#a9adc1;font-size:15px;margin-right:10px;">Just Now</p>
+																</a>
+																<!-- More -->
+											<a class="tab8" href="#">				<section style="background:#212121;height:72px;left:0;right:0;width:360px;margin-top:-6px;">
+																	<hr size="1" style="border-color:#000;" />
+
+																	<img class="mdl-button mdl-js-button mdl-button--icon" src="arcanekikbois.png" alt="New Features Button" width="60px" height="60px" style="margin-top:0px;margin-left:10px;border-radius:50%;" />
+
+																	<div style="margin-top:-20px;">
+																		<p style="color:white;margin-top:-55px;margin-left:80px;font-size:17px;">Arcanekik  bois (Dev C..</p>
+																		<p style="color:#a9adc1;margin-top:-10px;margin-left:80px;font-size:15px;">Contributors of ArcaneKik...</p>
+																		<p style="float:right;margin-top:-58px;color:#a9adc1;font-size:15px;margin-right:10px;">Just Now</p>
+																		</a>
+																		
+																	
+	</body>
+</html>
